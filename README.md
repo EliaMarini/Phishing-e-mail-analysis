@@ -1,4 +1,4 @@
-<h1>Phishing e-mail analysis</h1>
+<h1>:mailbox_with_mail: Phishing e-mail analysis</h1>
 
 
 <h2>Description</h2>
@@ -6,11 +6,10 @@ Phising e-mail analysis using "Let's Defend" platform
 <br />
 
 
-<h2>Scenario</h2>
+<h2>:jigsaw: Scenario and objectives</h2>
 <img width="1085" height="515" alt="scenario" src="https://github.com/user-attachments/assets/0341f306-2138-473d-86d1-f012b058f5ca" />
 <br />
 
-<h2>Objectives</h2>
 <br />
 <ul>
   <li>What is the sending email address?</li>
@@ -25,7 +24,7 @@ Phising e-mail analysis using "Let's Defend" platform
 </ul>
 
 
-<h2>Walk-through:</h2>
+<h2>:green_square: Walk-through:</h2>
 
 <p align="center">
 <img width="1025" height="782" alt="E-mail" src="https://github.com/user-attachments/assets/d120ecd5-ecbb-4d2a-b1d6-a11fe925df99" />
@@ -91,7 +90,7 @@ The domain was registered 26 years ago in Singapore. Usually attackers use fresh
   <br />
 </p>
 
-<h1>Conclusions</h1>
+<h1>:triangular_flag_on_post: Conclusions and remediation</h1>
 <p align="left">
   The file is a malware. Virus total intel says that it is associated mainly to create windows scheduled tasks and possibly gain persistance in the affected systems. 
   The next step would be to analyze the malware behavior in a sandbox enviroment and look at network traffic and system events. Then i would search the sender ip (71.19.248.52)
@@ -99,7 +98,6 @@ The domain was registered 26 years ago in Singapore. Usually attackers use fresh
 </p>
 <br />
 
-<h1>Remediation</h1>
 <p align="left">
   Once we stated that the attachment is a malware and we have identified all affected hosts, i would isolate them from the network, 
   block the sender ip with a firewall rule, invalidate active user sessions and change credentials (depending on organizations rules i might reimage the OS)
